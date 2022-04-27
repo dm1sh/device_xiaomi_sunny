@@ -4,6 +4,9 @@ vendor.bluetooth.soc=cherokee
 # Charger
 ro.charger.enable_suspend=true
 
+# Disable Remote Keyguard animation
+persist.wm.enable_remote_keyguard_animation=0
+
 # Disable Skia tracing by default
 debug.hwui.skia_atrace_enabled=false
 

@@ -104,4 +104,7 @@ void vendor_load_properties(void) {
         property_override("vendor.usb.product_string", "Redmi Note 10");
     }
     load_dalvik_properties();
+	
+    // APEX
+    property_override("ro.apex.updatable", "false");
 }

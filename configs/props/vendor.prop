@@ -158,6 +158,9 @@ vendor.gralloc.enable_fb_ubwc=1
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# Graphics
+ro.config.avoid_gfx_accel=true
+
 # HVDCP
 persist.vendor.cp.fcc_main_ua=400000
 persist.vendor.cp.taper_term_mv=6500

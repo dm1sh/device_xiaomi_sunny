@@ -198,6 +198,9 @@ persist.vendor.radio.enable_temp_dds=true
 # Soc
 ro.soc.manufacturer=Qualcomm
 
+# SPU
+vendor.gatekeeper.disable_spu=true
+
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.dpl.inst.name=dpl

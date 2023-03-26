@@ -18,7 +18,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # GApps
-WITH_GMS := true
+WITH_GMS := false
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_sunny
